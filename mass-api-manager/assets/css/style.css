@@ -1,0 +1,104 @@
+
+.vertical_top{
+    vertical-align: top;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: transparent;
+    background-color: transparent;
+}
+
+.nav.nav-pills > li > span{
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    padding: 15px 30px;
+}
+.nav.nav-pills > li > span:hover{
+    color: #3DB7D9;
+    cursor: pointer;
+}
+.nav.nav-pills > li > span.active{
+    color: white;
+    cursor: pointer;
+}
+
+.card{
+    max-width: 100%;
+}
+.card-header{
+    background-color: transparent;
+}
+a:focus{
+    color: white;
+}
+
+.container{
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+}
+
+#sources-list table thead th:nth-child(1){
+    width: 80px;
+}
+#sources-list table thead th:nth-child(2){
+    width: 70px;
+}
+#sources-list table thead th:nth-child(3){
+    width: 20px;
+}
+#sources-list table thead th:nth-child(4){
+    width: auto;
+}
+#sources-list table thead th:nth-child(5) {
+    width: 210px;
+}
+#sources-list table thead th:nth-child(6) {
+    width: 100px;
+    padding: 0;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+    display: inline;
+}
+
+#feeds-list-section, #general-settings{
+    border: 1px solid rgba(0,0,0,0.125);
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.modal-dialog{
+    max-width: 900px;
+}
+
+.networks-list li{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.networks-list > li:after{
+    width: 90px;
+}
+
+.regular-text {
+    width: 80%;
+}
+
+.section-tabs li{
+    padding: 0;
+}

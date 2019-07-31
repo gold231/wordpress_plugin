@@ -1,0 +1,29 @@
+.mam_campaign_main_container > .mam_network_anchor{
+    font-size: 20px;
+    text-decoration: none !important;
+    height: 0;
+}
+
+.mam_campaign_main_container > .mam_network_anchor:hover{
+    text-decoration: underline !important;
+}
+
+.mam_campaign_container{
+    border: 1px solid #cfcfcf;
+}
+
+.mam_campaign_container table{
+    margin-bottom: 0;
+}
+.mam_campaign_container table td{
+    border: none;
+    min-width: 132px;
+}
+
+.mam_campaign_footer_container{
+    overflow-x: scroll;
+}
+
+.mam_campaign_main_container a img{
+    width: 100%;
+}
